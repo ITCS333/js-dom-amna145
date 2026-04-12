@@ -23,6 +23,7 @@ function addNewItem() {
   let newItem=document.createElement('li');
   newItem.textContent='New Item';
   newItem.className='item';
+  list.appendChild(newItem);
 }
 
 /**
